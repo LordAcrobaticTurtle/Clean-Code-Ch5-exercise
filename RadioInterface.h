@@ -28,8 +28,8 @@ class RadioInterface {
         bool        m_lostFrame;       
         int         m_deadband;
 
-        uint16_t m_channelEndpointsMax[TX_NUM_CHANNELS];
-        uint16_t m_channelEndpointsMin[TX_NUM_CHANNELS];
+        uint16_t    m_channelEndpointsMax[TX_NUM_CHANNELS];
+        uint16_t    m_channelEndpointsMin[TX_NUM_CHANNELS];
 
 
 };
